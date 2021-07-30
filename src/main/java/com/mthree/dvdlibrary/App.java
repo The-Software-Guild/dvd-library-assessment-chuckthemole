@@ -7,16 +7,13 @@ import com.mthree.dvdlibrary.ui.DvdLibraryView;
 import com.mthree.dvdlibrary.ui.UserIO;
 import com.mthree.dvdlibrary.ui.UserIOConsoleImpl;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ *@author Charles Thomas
+ *email: chuckthemole@gmail.com
+ *date: 07/29/2021
+ *purpose: Application for DVD Collection
  */
 
-/**
- *
- * @author Chuck
- */
 public class App {
     
     public static void main(String[] args) {

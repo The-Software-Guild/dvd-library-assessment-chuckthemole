@@ -1,4 +1,5 @@
-<Forest Gump>::<null>::<R>::<Me>::<This studio>::<pg-13>
-<Jaws>::<1400>::<R>::<me>::<mgm>::<ok>
-<new title>::<1600>::<3>::<3>::<new studio>::<3>
-<Good Will Hunting>::<1998>::<R>::<Him>::<This>::<Great>
+<Forest Gump>::<1996>::<PG-13>::<Me>::<no studio>::<Great movie!>
+<Jaws>::<1400>::<R>::<Steven Spielberg>::<Studio B>::<Ok movie>
+<American Pie>::<1600>::<PG-13>::<John Candy>::<new studio>::<Favorite Movie>
+<The Big Sleep>::<1945>::<PG>::<None>::<Studio A>::<Best movie ever!>
+<Good Will Hunting>::<1998>::<R>::<Matt Damon>::<new studio>::<Great>

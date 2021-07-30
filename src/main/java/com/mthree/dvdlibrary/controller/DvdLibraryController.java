@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.mthree.dvdlibrary.controller;
 
 import com.mthree.dvdlibrary.dao.DvdLibraryDao;
@@ -11,9 +7,12 @@ import com.mthree.dvdlibrary.ui.DvdLibraryView;
 import java.util.List;
 
 /**
- *
- * @author Chuck
+ *@author Charles Thomas
+ *email: chuckthemole@gmail.com
+ *date: 07/29/2021
+ *purpose: Application for DVD Collection
  */
+
 public class DvdLibraryController {
 
     private DvdLibraryView view;
@@ -41,7 +40,6 @@ public class DvdLibraryController {
                 case 6 -> keepGoing = false;
                 default -> unknownCommand();
             }
-
         }
         exitMessage();
     }

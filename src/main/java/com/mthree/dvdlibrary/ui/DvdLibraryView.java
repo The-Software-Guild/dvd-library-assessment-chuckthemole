@@ -1,17 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.mthree.dvdlibrary.ui;
 
 import com.mthree.dvdlibrary.dto.Dvd;
 import java.util.List;
 
 /**
- *
- * @author Chuck
+ *@author Charles Thomas
+ *email: chuckthemole@gmail.com
+ *date: 07/29/2021
+ *purpose: Application for DVD Collection
  */
+
 public class DvdLibraryView {
     
     private UserIO io;
@@ -118,11 +117,11 @@ public class DvdLibraryView {
     
     public void displayDvd(Dvd dvd) {
         if (dvd != null) {
-            io.print("  " + dvd.getTitle());
-            io.print("  " + dvd.getMpaaRating());
-            io.print("  " + dvd.getDirector());
-            io.print("  " + dvd.getStudio());
-            io.print("  " + dvd.getUserRating());
+            io.print("  Title: " + dvd.getTitle());
+            io.print("  MPAA Rating: " + dvd.getMpaaRating());
+            io.print("  Director: " + dvd.getDirector());
+            io.print("  Studio: " + dvd.getStudio());
+            io.print("  User Rating: " + dvd.getUserRating());
             io.print("");
         } else {
             io.print("No such DVD.");

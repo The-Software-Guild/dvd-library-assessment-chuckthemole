@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.mthree.dvdlibrary.dao;
 
 import com.mthree.dvdlibrary.dto.Dvd;
@@ -21,9 +17,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
- * @author Chuck
+ *@author Charles Thomas
+ *email: chuckthemole@gmail.com
+ *date: 07/29/2021
+ *purpose: Application for DVD Collection
  */
+
 public class DvdLibraryDaoFileImpl implements DvdLibraryDao {
     private Map<String, Dvd> dvds = new HashMap<>();
 
